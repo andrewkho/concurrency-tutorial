@@ -7,7 +7,7 @@ public class PrimeFinder {
     public static void main(String[] args) {
         List<Integer> inputs = new ArrayList<>();
         int numToCheck = 100;
-//        int numToCheck = 300000;
+//        int numToCheck = 500000;
         for (int i=0; i<numToCheck; i++) {
             inputs.add(i);
         }
