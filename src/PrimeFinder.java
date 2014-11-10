@@ -6,8 +6,8 @@ public class PrimeFinder {
     
     public static void main(String[] args) {
         List<Integer> inputs = new ArrayList<>();
-//        int numToCheck = 100;
-        int numToCheck = 300000;
+        int numToCheck = 100;
+//        int numToCheck = 300000;
         for (int i=0; i<numToCheck; i++) {
             inputs.add(i);
         }
@@ -15,7 +15,7 @@ public class PrimeFinder {
 //        runMultiThreadPrimeSmart (inputs, 4);
 //        runTwoThreadPrimeSmart (inputs);
 //        runTwoThreadPrime (inputs);
-        runSimplePrime (inputs, false);
+        runSimplePrime (inputs, true);
     }
     
     public static void runSimplePrime(List<Integer> inputs, boolean printPrimes) {
